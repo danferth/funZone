@@ -1,1 +1,0 @@
-{"ts":1361559438885,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<ul id=\"nav\">\r\n<?php\r\nforeach($nav as $x){\r\n\t\tprintf (\"<li><a href=\\\"index.php?page=%s\\\">%s</a></li>\\n\",$x['url'],$x['name']);\r\n\t}\r\n?>\r\n</ul>\r\n"]],"start1":0,"start2":0,"length1":0,"length2":143}]],"length":143}
