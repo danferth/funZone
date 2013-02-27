@@ -1,1 +1,12 @@
-$('h1').hide().delay(1000).show(500);
+//http://afarkas.github.com/webshim/demos/
+    $.webshims.polyfill();
+    
+$(document).ready(function(){
+    
+        
+    
+    
+    
+    
+    
+});
