@@ -6,7 +6,7 @@
   <!--reset-->
   <link rel="stylesheet" href="css/reset.css" />
   <!--main style-->
-  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" href="css/style.css">
 <!--page spacific stylesheet-->
   <link rel="stylesheet" "type="text/css" href="css/<?php echo $page_style; ?>" media="screen" />
   
