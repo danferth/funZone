@@ -1,4 +1,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="coffee/modernizr.custom.40000.js"></script>
+<script src="coffee/js-webshim/minified/polyfiller.js"></script>
 <script src="https://danferth-host.googlecode.com/files/prefix.js"></script>
 
 <script src="coffee/house.js"></script>
