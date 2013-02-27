@@ -22,21 +22,20 @@ include ('head.php');
 
 
 
-<div id="container">
+<div id="taco">
     <header><?php include($header); ?></header>
+    <nav class=""><?php include ('nav.php'); ?></nav>
     
-    <nav class="clearfix"><?php include ('nav.php'); ?></nav>
-    <div class="clearfix">
-    <div id="main" class="columns"><?php include($main); ?></div>
+    <div class="content">
+        <div class="main"><?php include($main); ?></div>
+    	<aside><?php include($aside); ?></aside>
+    </div>
     
-	<aside class="columns"><?php include($aside); ?></aside>
-</div>
-
 	<footer><?php include ($footer); ?></footer>
-    </div> <!--! end of #container -->
+    
+</div> <!--! end taco -->
 
-	<?php include('bottom.php'); ?>
-
+<?php include('bottom.php'); ?>
 
 </body>
 </html>
