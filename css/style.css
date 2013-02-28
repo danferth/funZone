@@ -10,21 +10,21 @@ body{
     box-shadow:inset 0 0 4em 1em rgba(255,255,255,.5);
     font-size:12px;
 }
+header, nav, .main, aside, footer{
+    border:0.083em dotted #444;
+    background: url('http://subtlepatterns.com/patterns/tiny_grid.png') repeat;
+}
 #taco{
-    width:79.167em;
+    width:75%;
     margin: 0 auto;
 }
 header{
     width: 100%;
     height:8.333em;
     margin:0 0 0 0;
-    background:CCCCCC;
-    background: rgb(204,204,204);
 }
 nav{
     margin:0.833em 0 0 0;
-    background:#666666;
-    background:rgb(102,102,102);
 }
 .content{
     width:100%;
@@ -33,24 +33,17 @@ nav{
     width:60%;
     float:left;
     margin:0.833em 0.833em 0 0;
-    background: #FFF;
-    background: rgb(255,255,255);
 }
 aside{
     width:40%;
     float:right;
     margin:0.833em 0 0 0;
-    background: #999999;
-    background:rgb(153,153,153);
     overflow:hidden;
 }
 footer{
     height:4.167em;
     text-align:center;
     margin:0.833em 0 0 0;
-    background: #666666;
-    background:rgb(102,102,102);
-    color:#fff;
 }
 
 
