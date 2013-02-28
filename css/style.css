@@ -7,10 +7,10 @@ html, body{height:100%; width:100%;}
 
 body{
     background: url('http://subtlepatterns.com/patterns/pw_maze_white.png');
-    box-shadow:inset 0 0 4px 1px rgba(255,255,255,.5);
+    box-shadow:inset 0 0 4em 1em rgba(255,255,255,.5);
     font-size:12px;
 }
-#container{
+#taco{
     width:79.167em;
     margin: 0 auto;
 }
@@ -26,7 +26,10 @@ nav{
     background:#666666;
     background:rgb(102,102,102);
 }
-#main{
+.content{
+    width:100%;
+}
+.main{
     width:60%;
     float:left;
     margin:0.833em 0.833em 0 0;
