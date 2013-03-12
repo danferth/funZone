@@ -6,13 +6,13 @@
 html, body{height:100%; width:100%;}
 
 body{
-    background: url('http://subtlepatterns.com/patterns/pw_maze_white.png') repeat;
+    background: url('../images/pw_maze_white.png') repeat;
     box-shadow:inset 0 0 4em 1em rgba(255,255,255,1);
     font-size:12px;
 }
 header, nav, .main, aside, footer{
     border:0.083em dotted #444;
-    background: url('http://subtlepatterns.com/patterns/tiny_grid.png') repeat;
+    background: url('../images/tiny_grid.png') repeat;
 }
 #taco{
     width:75%;
@@ -29,13 +29,18 @@ nav{
 .content{
     width:100%;
 }
+.content:after{
+    content:"";
+    display:table;
+    clear:both;
+}
 .main{
     width:60%;
     float:left;
-    margin:0.833em 0.833em 0 0;
+    margin:0.833em 0 0 0;
 }
 aside{
-    width:40%;
+    width:39%;
     float:right;
     margin:0.833em 0 0 0;
     overflow:hidden;
