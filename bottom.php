@@ -1,7 +1,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!--webshims-->
 <script src="coffee/modernizr.custom.40000.js"></script>
-<script src="coffee/js-webshim/minified/polyfiller.js"></script>
+<script src="coffee/minified/polyfiller.js"></script>
 <!--prefixfree from danferth google code-->
 <script src="https://danferth-host.googlecode.com/files/prefix.js"></script>
 <!--default jQuery file-->
